@@ -12,7 +12,7 @@ stages:
   prepare_base_model:
     cmd: python src\Chicken_disease_classification\pipeline\stage_02_prepare_base_model.py
     deps:
-      - src\Chicken_disease_classification\pipeline\stage_02_prepare_base_model.py
+      - src\Chicken_disease_classification\pipeline\stage_02_prepare_base_model.py                                                                                                    
       - config\config.yaml
     params:
       - IMAGE_SIZE
